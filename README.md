@@ -23,10 +23,10 @@ To utilize this project, you need to have the following installed locally:
 
 ## Action before execution:
 * In the cypress.config.js enter default values for apiUrl and baseUrl
-* To overide default baseUrl in the config use this command: node_modules/.bin/cypress run baseUrl="define new baseurl"
-* To overide default apiUrl in the config use this command: node_modules/.bin/cypress run apiurl="define new apiUrl"
-* To overide default amount in the config use this command: node_modules/.bin/cypress run amount="define new amount"
-* To overide default email in the config use this command: node_modules/.bin/cypress run email="define new email"
+* To overide default baseUrl in the config use this command: node_modules/.bin/cypress run --env baseUrl="define new baseurl"
+* To overide default apiUrl in the config use this command: node_modules/.bin/cypress run --env apiurl="define new apiUrl"
+* To overide default amount in the config use this command: node_modules/.bin/cypress run --env amount="define new amount"
+* To overide default email in the config use this command: node_modules/.bin/cypress run --env email="define new email"
 
 
 ## Test execution:
