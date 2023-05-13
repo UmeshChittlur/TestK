@@ -17,7 +17,8 @@ To utilize this project, you need to have the following installed locally:
 * node.js
 * VS Code
 
-## Useage:
+## Usage:
+* Clone the project https://github.com/UmeshChittlur/TestK.git
 * Open the TestK project in VS Code
 * In terminal run the command to install Cypress: npm install cypress --save-dev
 
